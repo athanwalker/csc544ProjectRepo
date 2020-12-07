@@ -1,0 +1,71 @@
+#attrInfo {
+	border: 2px dashed black;
+	padding: 10px;
+	width: 45%;
+	margin: 0 auto;
+	float: left;
+}
+
+#countryInfo {
+	border: 2px dashed black;
+	padding: 10px;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	float: right;
+}
+
+#countryText {
+	border: 2px dashed black;
+	width: 600px;
+	height: 300px;
+	clear: both;
+	float: right;
+	padding: 10px;
+}
+
+#lineGraph {
+	width: 555px;
+	height: 325px;
+}
+
+#countryInfoTextLeft{ 
+	float: left;
+	width: 45%;
+}
+
+#countryInfoTextRight{ 
+	float: right;
+	width: 45%;
+}
+
+#timeScale {
+	width: 45%;
+	margin: auto;
+	text-align: center;
+}
+
+#timeScale form {
+	padding: 5px;
+}
+
+#dataSource {
+	clear: both;
+	padding-top: 20px;
+}
+
+.checkboxgroupone, .checkboxgrouptwo {
+  display: inline-block;
+  text-align: center;
+}
+.checkboxgroupone label, .checkboxgrouptwo label{
+  display: block;
+}
+
+.checkboxgroupone {
+	color: #45b6fe;
+}
+
+.checkboxgrouptwo {
+	color: #296d98;
+}

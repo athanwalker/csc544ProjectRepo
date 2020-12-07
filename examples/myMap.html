@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Water World</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../dist/d3-geomap.css" rel="stylesheet">
+     <link rel="stylesheet" href="myWaterMap.css">
+    <script src="../node_modules/d3-array/dist/d3-array.js"></script>
+    <script src="../node_modules/d3-geo/dist/d3-geo.js"></script>
+
+    <script src="../node_modules/d3-dsv/dist/d3-dsv.js"></script>
+    <script src="../node_modules/d3-fetch/dist/d3-fetch.js"></script>
+
+    <script src="../node_modules/d3-time/dist/d3-time.js"></script>
+    <script src="../node_modules/d3-time-format/dist/d3-time-format.js"></script>
+    <script src="../node_modules/d3-format/dist/d3-format.js"></script>
+    <script src="../node_modules/d3-scale/dist/d3-scale.js"></script>
+    <script src="../node_modules/d3-color/dist/d3-color.js"></script>
+    <script src="../node_modules/d3-interpolate/dist/d3-interpolate.js"></script>
+
+    <script src="../node_modules/d3-selection/dist/d3-selection.js"></script>
+    <script src="../node_modules/d3-timer/dist/d3-timer.js"></script>
+    <script src="../node_modules/d3-ease/dist/d3-ease.js"></script>
+    <script src="../node_modules/d3-dispatch/dist/d3-dispatch.js"></script>
+    <script src="../node_modules/d3-transition/dist/d3-transition.js"></script>
+
+    <script src="../node_modules/topojson/dist/topojson.js"></script>
+    <script src="../dist/d3-geomap.js"></script>
+
+    <script src="../node_modules/d3-scale-chromatic/dist/d3-scale-chromatic.js"></script>
+
+    <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+
+    <script src="../data/data.js"></script>
+
+    <script src="definitions.js"></script>
+</head>
+<body>
+<div class="container" id="main">
+    <h1 class="pull-left">World Wide Water Map</h1>
+    <div class="pull-right" style="margin-top: 1.5em;">
+        <label for="map-select" id="labelForAttrs">Water Attribute: </label>
+        <select class="form-control" id="map-select">
+          <option value="Agricultural_water_withdrawal">Agricultural water withdrawal</option>
+          <option value="Agricultural_water_withdrawal_as_percent_of_total_water_withdrawal">Agricultural water withdrawal as % of total water withdrawal</option>
+          <option value="Dependency_ratio">Dependency ratio</option>
+          <option value="Fresh_groundwater_withdrawal">Fresh groundwater withdrawal</option>
+          <option value="Fresh_surface_water_withdrawal">Fresh surface water withdrawal</option>
+          <option value="Groundwater_accounted_inflow">Groundwater accounted inflow</option>
+          <option value="Groundwater_accounted_outflow_to_other_countries">Groundwater accounted outflow to other countries</option>
+          <option value="Groundwater_entering_the_country">Groundwater entering the country</option>
+          <option value="Groundwater_leaving_the_country_to_other_countries">Groundwater leaving the country to other countries</option>
+          <option value="Groundwater_produced_internally">Groundwater produced internally</option>
+          <option value="Industrial_water_withdrawal">Industrial water withdrawal</option>
+          <option value="Industrial_water_withdrawal_as_percent_of_total_water_withdrawal">Industrial water withdrawal as % of total water withdrawal</option>
+          <option value="Irrigation_water_requirement">Irrigation water requirement</option>
+          <option value="Irrigation_water_withdrawal">Irrigation water withdrawal</option>
+          <option value="Municipal_water_withdrawal">Municipal water withdrawal</option>
+          <option value="Municipal_water_withdrawal_as_percent_of_total_withdrawal">Municipal water withdrawal as % of total withdrawal</option>
+          <option value="Surface_water_accounted_flow_of_border_rivers">Surface water accounted flow of border rivers</option>
+          <option value="Surface_water_accounted_inflow">Surface water accounted inflow</option>
+          <option value="Surface_water_entering_the_country">Surface water entering the country</option>
+          <option value="Surface_water_inflow_not_submitted_to_treaties">Surface water inflow not submitted to treaties</option>
+          <option value="Surface_water_inflow_secured_through_treaties">Surface water inflow secured through treaties</option>
+          <option value="Surface_water_inflow_submitted_to_treaties">Surface water inflow submitted to treaties </option>
+          <option value="Surface_water_leaving_the_country_to_other_countries">Surface water leaving the country to other countries</option>
+          <option value="Surface_water_outflow_to_other_countries_not_submitted_to_treaties">Surface water outflow to other countries not submitted to treaties</option>
+          <option value="Surface_water_outflow_to_other_countries_secured_through_treaties">Surface water outflow to other countries secured through treaties</option>
+          <option value="Surface_water_outflow_to_other_countries_submitted_to_treaties">Surface water outflow to other countries submitted to treaties</option>
+          <option value="Surface_water_produced_internally">Surface water produced internally</option>
+          <option value="Surface_water_total_external_renewable">Surface water total external renewable</option>
+          <option value="Surface_water_total_flow_of_border_rivers">Surface water total flow of border rivers</option>
+          <option value="Total_area_of_the_country">Total area of the country</option>
+          <option value="Total_freshwater_withdrawal">Total freshwater withdrawal</option>
+          <option value="Total_internal_renewable_water_resources">Total internal renewable water resources</option>
+          <option value="Total_internal_renewable_water_resources_per_capita">Total internal renewable water resources per capita</option>
+          <option value="Total_population">Total population</option>
+          <option value="Total_renewable_groundwater">Total renewable groundwater</option>
+          <option value="Total_renewable_surface_water">Total renewable surface water</option>
+          <option value="Total_renewable_water_resources">Total renewable water resources</option>
+          <option value="Total_renewable_water_resources_per_capita">Total renewable water resources per capita</option>
+          <option value="Total_water_withdrawal">Total water withdrawal</option>
+          <option value="Total_water_withdrawal_per_capita">Total water withdrawal per capita</option>
+          <option value="Water_resources_total_external_renewable">Water resources total external renewable</option>
+        </select>
+    </div>
+    <div id="map" class="d3-geomap"></div>
+    <br />
+    <div id="timeScale">
+      <form>
+        <input type="radio" id="1970" value="1970" name="year"><label for="1970">1970</label>
+        <input type="radio" id="1975" value="1975" name="year"><label for="1975">1975</label>
+        <input type="radio" id="1980" value="1980" name="year"><label for="1980">1980</label>
+        <input type="radio" id="1985" value="1985" name="year"><label for="1985">1985</label>
+        <input type="radio" id="1990" value="1990" name="year"><label for="1990">1990</label>
+        <input type="radio" id="1995" value="1995" name="year"><label for="1995">1995</label>
+        <input type="radio" id="2000" value="2000" name="year"><label for="2000">2000</label>
+        <input type="radio" id="2005" value="2005" name="year"><label for="2005">2005</label>
+        <input type="radio" id="2010" value="2010" name="year"><label for="2010">2010</label>
+        <input type="radio" id="2015" value="2015" name="year" checked="checked"><label for="2015">2015</label>
+      </form>
+      <p>Data per country was taken within a margin of 2 years from selected year</p>
+    </div>
+    <br />
+    <div id="info">
+      <div id="attrInfo"></div>
+      <div id="countryInfo">
+          <label for="country-select" id="labelForAttrs">Country Selection: </label>
+          <select class="form-control" id="country-select"></select>
+          <div id="countryText">
+            <p id="countryInfoTextCenter"></p>
+            <p id="countryInfoTextLeft"></p>
+            <p id="countryInfoTextRight"></p>
+          </div>
+      </div>
+    </div>
+    <p id="dataSource">Data source: <a href="http://www.fao.org/nr/water/aquastat/data/query/results.html">AQUASTAT</a></p>
+</div>
+
+<script>
+    var worldmap = d3.choropleth()
+        .geofile('../dist/topojson/world/countries.json')
+        .colors(d3.schemeYlOrRd[9])
+        .column('2015')
+        .duration(500)
+        .format(d3.format(',.02f'))
+        .legend(true)
+        .unitId('iso3')
+        .postUpdate(annotation);
+
+    //../src/py/Total_area_of_the_country.csv
+    d3.csv('../src/py/Agricultural_water_withdrawal.csv').then(data => {
+        //console.log(data);
+        writeInfo("Agricultural_water_withdrawal");
+        countrySelection("../src/py/Agricultural_water_withdrawal.csv");
+        worldmap.draw(d3.select("#map").datum(data));
+    });
+
+    d3.select('#map-select').on('change', function() {
+        //worldmap.column(this.value).update()
+        let path = '../src/py/' + this.value + ".csv"
+        d3.select("#map").html("");
+        d3.csv(path).then(data => {
+            writeInfo(this.value);
+            countrySelection(path);
+            worldmap.draw(d3.select("#map").datum(data));
+        });
+    });
+
+    function annotation() {
+        var anno_height = 60;
+
+        // Remove possibly existing annotation, when map is updated.
+        worldmap.svg.selectAll('g.annotation').remove();
+
+        fg = worldmap.svg.append('g')
+            .attr('class', 'annotation')
+            .attr('width', '100%')
+            .attr('height', anno_height)
+            .attr('transform', 'translate(0,' + (worldmap.height() - anno_height) + ')')
+
+        fg.append('rect')
+            .attr('x', '10%')
+            .attr('width', '76%')
+            .attr('height', anno_height)
+            .style('fill-opacity', .8)
+            .style('fill', '#fff');
+
+        fg.append('text')
+            .attr('width', '80%')
+            .attr('x', '12%')
+            .attr('y', 45)
+            .style('color', '#444')
+            .style('font-size', '12px')
+            .text('Data source: fao.org | FAO. 2016. AQUASTAT Main Database, Food and Agriculture Organization of the United Nations (FAO)')
+    }
+
+    d3.selectAll("input")
+      .on("change", function(d) { worldmap.column(this.value).update();
+                        d3.select('#value-time').text(this.value + " +-2"); });
+
+    function writeInfo(fileName) {
+      let attr = "";
+      let attrList = fileName.split("_");
+      for(let i = 0; i < attrList.length; i++) {
+        if(i == attrList.length - 1) {
+          attr += attrList[i];
+        } else {
+          attr += attrList[i] + " ";
+        }
+      }
+      let attrInfo = defs[attr];
+      let attrInfoList = attrInfo.split("\n");
+      let attrName = attrInfoList[0];
+      let attrDef = attrInfoList[1];
+      let attrCalc = attrInfoList[2];
+      d3.select("#attrInfo").html("<h3>" + attrName + "</ h3><hr /><h3>Definition:</ h3><br /><p style='font-size:14px'>" + attrDef + "</p><hr /><h3>Calculation:</ h3><br /><p style='font-size:14px'>" + attrCalc) + "</p>";
+    }
+
+    function countrySelection(filePath) {
+      let obj = {};
+      let currSelect = null;
+      d3.csv(filePath).then(function(data) {
+        currSelect = d3.select("#country-select").node().value;
+        let cSelector = d3.select("#country-select").html("");
+                          
+        data.sort(function(x, y) {
+          return d3.ascending(x.country, y.country);
+        });
+
+        let options = cSelector.selectAll("option")
+          .data(data)
+          .enter()
+          .append("option");
+        options.text(function(d) { 
+          obj[d.country] = {};
+          // console.log(d["country"]["1970"]);
+          obj[d.country]["1970"] = d["1970"];
+          obj[d.country]["1975"] = d["1975"];
+          obj[d.country]["1980"] = d["1980"];
+          obj[d.country]["1985"] = d["1985"];
+          obj[d.country]["1990"] = d["1990"];
+          obj[d.country]["1995"] = d["1995"];
+          obj[d.country]["2000"] = d["2000"];
+          obj[d.country]["2005"] = d["2005"];
+          obj[d.country]["2010"] = d["2010"];
+          obj[d.country]["2015"] = d["2015"];
+          return d.country; 
+        })
+          .attr("value", function(d) { return d.country; });
+        d3.select("#country-select").node().value = currSelect;
+
+        cSelector.on('change', function() {
+          fillCountryInfo(obj);
+        });
+        fillCountryInfo(obj);
+        
+
+      });
+    }
+
+    function fillCountryInfo(obj) {
+      let val = d3.select("#country-select").node().value;
+
+      d3.select("#countryInfoTextCenter").html("<h3>" + val + "</h3><hr /><h3>Year: Value</h3><br />");
+
+      d3.select("#countryInfoTextLeft").html("<p style='font-size:16px'>" + 
+        "1970: " + obj[val]["1970"] + "<br />" + 
+        "1975: " + obj[val]["1975"] + "<br />" + 
+        "1980: " + obj[val]["1980"] + "<br />" + 
+        "1985: " + obj[val]["1985"] + "<br />" + 
+        "1990: " + obj[val]["1990"] + "</ p>");
+
+      d3.select("#countryInfoTextRight").html("<p style='font-size:16px'>" + 
+        "1995: " + obj[val]["1995"] + "<br />" + 
+        "2000: " + obj[val]["2000"] + "<br />" + 
+        "2005: " + obj[val]["2005"] + "<br />" + 
+        "2010: " + obj[val]["2010"] + "<br />" + 
+        "2015: " + obj[val]["2015"] + "</ p>");
+    }
+
+</script>
+</body>
+</html>

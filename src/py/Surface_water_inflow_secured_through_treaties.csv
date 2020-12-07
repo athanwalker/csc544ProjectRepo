@@ -1,0 +1,194 @@
+country,1970,1975,1980,1985,1990,1995,2000,2005,2010,2015,iso3
+Canada,0,0,0,0,0,0,0,0,0,0,CAN
+Sao Tome and Principe,0,0,0,0,0,0,0,0,0,0,STP
+Turkmenistan,,,,,44.11,44.11,44.11,44.11,44.11,44.11,TKM
+United States of America,0,0,0,0,0,0,0,0,0,0,USA
+United Republic of Tanzania,0,0,0,0,0,0,0,0,0,0,TZA
+Lithuania,,,,,0,0,0,0,0,0,LTU
+Cambodia,0,0,0,0,0,0,0,0,0,0,KHM
+Ethiopia,,,,,,0,0,0,0,0,ETH
+Palestine,0,0,0,0,0,0,0,0,0,0,PSE
+Argentina,0,0,0,0,0,0,0,0,0,0,ARG
+Cameroon,0,0,0,0,0,0,0,0,0,0,CMR
+Burkina Faso,0,0,0,0,0,0,0,0,0,0,BFA
+Ghana,0,0,0,0,0,0,0,0,0,0,GHA
+Saudi Arabia,0,0,0,0,0,0,0,0,0,0,SAU
+Japan,0,0,0,0,0,0,0,0,0,0,JPN
+Slovenia,,,,,0,0,0,0,0,0,SVN
+Guatemala,0,0,0,0,0,0,0,0,0,0,GTM
+Bosnia and Herzegovina,,,,,0,0,0,0,0,0,BIH
+Kuwait,0,0,0,0,0,0,0,0,0,0,KWT
+Russian Federation,,,,,0,0,0,0,0,0,RUS
+Jordan,0,0,0,0,0,0,0,0,0,0,JOR
+Dominica,0,0,0,0,0,0,0,0,0,0,DMA
+Liberia,0,0,0,0,0,0,0,0,0,0,LBR
+Maldives,0,0,0,0,0,0,0,0,0,0,MDV
+Jamaica,0,0,0,0,0,0,0,0,0,0,JAM
+Oman,0,0,0,0,0,0,0,0,0,0,OMN
+North Macedonia,,,,,0,0,0,0,0,0,MKD
+Cabo Verde,0,0,0,0,0,0,0,0,0,0,CPV
+Seychelles,0,0,0,0,0,0,0,0,0,0,SYC
+Gabon,0,0,0,0,0,0,0,0,0,0,GAB
+Niue,0,0,0,0,0,0,0,0,0,0,NIU
+New Zealand,0,0,0,0,0,0,0,0,0,0,NZL
+Yemen,0,0,0,0,0,0,0,0,0,0,YEM
+Albania,0,0,0,0,0,0,0,0,0,0,ALB
+Samoa,0,0,0,0,0,0,0,0,0,0,WSM
+United Arab Emirates,0,0,0,0,0,0,0,0,0,0,ARE
+India,0,0,0,0,0,0,0,0,0,0,IND
+Azerbaijan,,,,,0,0,0,0,0,0,AZE
+Lesotho,0,0,0,0,0,0,0,0,0,0,LSO
+Saint Vincent and the Grenadines,0,0,0,0,0,0,0,0,0,0,VCT
+Kenya,0,0,0,0,0,0,0,0,0,0,KEN
+Tajikistan,,,,,13.31,13.31,13.31,13.31,13.31,13.31,TJK
+Turkey,0,0,0,0,0,0,0,0,0,0,TUR
+Afghanistan,0,0,0,0,0,0,0,0,0,0,AFG
+Bangladesh,0,0,0,0,0,0,0,0,0,0,BGD
+Mauritania,0,0,0,0,0,0,0,0,0,0,MRT
+Iran (Islamic Republic of),0.82,0.82,0.82,0.82,0.82,0.82,0.82,0.82,0.82,0.82,IRN
+Viet Nam,0,0,0,0,0,0,0,0,0,0,VNM
+Saint Lucia,0,0,0,0,0,0,0,0,0,0,LCA
+Mongolia,0,0,0,0,0,0,0,0,0,0,MNG
+France,0,0,0,0,0,0,0,0,0,0,FRA
+Syrian Arab Republic,16.09,16.09,16.09,16.09,16.09,16.09,16.09,16.09,16.09,16.09,SYR
+Rwanda,0,0,0,0,0,0,0,0,0,0,RWA
+Slovakia,,,,,,0,0,0,0,0,SVK
+Somalia,0,0,0,0,0,0,0,0,0,0,SOM
+Peru,0,0,0,0,0,0,0,0,0,0,PER
+Vanuatu,0,0,0,0,0,0,0,0,0,0,VUT
+Nauru,0,0,0,0,0,0,0,0,0,0,NRU
+Norway,0,0,0,0,0,0,0,0,0,0,NOR
+Malawi,0,0,0,0,0,0,0,0,0,0,MWI
+Cook Islands,0,0,0,0,0,0,0,0,0,0,COK
+Benin,0,0,0,0,0,0,0,0,0,0,BEN
+Cuba,0,0,0,0,0,0,0,0,0,0,CUB
+Saint Kitts and Nevis,0,0,0,0,0,0,0,0,0,0,KNA
+Togo,0,0,0,0,0,0,0,0,0,0,TGO
+China,0,0,0,0,0,0,0,0,0,0,CHN
+Armenia,,,,,0,0,0,0,0,0,ARM
+Republic of Korea,0,0,0,0,0,0,0,0,0,0,KOR
+Dominican Republic,0,0,0,0,0,0,0,0,0,0,DOM
+Bolivia (Plurinational State of),0,0,0,0,0,0,0,0,0,0,BOL
+Ukraine,,,,,0,0,0,0,0,0,UKR
+Bahrain,0,0,0,0,0,0,0,0,0,0,BHR
+Tonga,0,0,0,0,0,0,0,0,0,0,TON
+Finland,0,0,0,0,0,0,0,0,0,0,FIN
+Libya,0,0,0,0,0,0,0,0,0,0,LBY
+Indonesia,0,0,0,0,0,0,0,0,0,0,IDN
+Central African Republic,0,0,0,0,0,0,0,0,0,0,CAF
+Mauritius,0,0,0,0,0,0,0,0,0,0,MUS
+Belarus,,,,,0,0,0,0,0,0,BLR
+Mali,0,0,0,0,0,0,0,0,0,0,MLI
+Sweden,0,0,0,0,0,0,0,0,0,0,SWE
+Bulgaria,0,0,0,0,0,0,0,0,0,0,BGR
+Romania,0,0,0,0,0,0,0,0,0,0,ROU
+Angola,0,0,0,0,0,0,0,0,0,0,AGO
+Chad,0,0,0,0,0,0,0,0,0,0,TCD
+South Africa,2.208,2.208,2.208,2.208,2.208,2.208,2.208,2.208,2.208,2.208,ZAF
+Tokelau,0,0,0,0,0,0,0,0,0,0,TKL
+Cyprus,0,0,0,0,0,0,0,0,0,0,CYP
+Brunei Darussalam,0,0,0,0,0,0,0,0,0,0,BRN
+Qatar,0,0,0,0,0,0,0,0,0,0,QAT
+Malaysia,0,0,0,0,0,0,0,0,0,0,MYS
+Austria,0,0,0,0,0,0,0,0,0,0,AUT
+Mozambique,0,0,0,0,0,0,0,0,0,0,MOZ
+Uganda,0,0,0,0,0,0,0,0,0,0,UGA
+Hungary,0,0,0,0,0,0,0,0,0,0,HUN
+Niger,0,0,0,0,0,0,0,0,0,0,NER
+Brazil,0,0,0,0,0,0,0,0,0,0,BRA
+Faroe Islands,0,0,0,0,0,0,0,0,0,0,FRO
+Guinea,0,0,0,0,0,0,0,0,0,0,GIN
+Panama,0,0,0,0,0,0,0,0,0,0,PAN
+Republic of Moldova,,,,,0,0,0,0,0,0,MDA
+Costa Rica,0,0,0,0,0,0,0,0,0,0,CRI
+Luxembourg,0,0,0,0,0,0,0,0,0,0,LUX
+Bahamas,0,0,0,0,0,0,0,0,0,0,BHS
+Ireland,0,0,0,0,0,0,0,0,0,0,IRL
+Pakistan,170.3,170.3,170.3,170.3,170.3,170.3,170.3,170.3,170.3,170.3,PAK
+Palau,0,0,0,0,0,0,0,0,0,0,PLW
+Nigeria,0,0,0,0,0,0,0,0,0,0,NGA
+Ecuador,0,0,0,0,0,0,0,0,0,0,ECU
+Australia,0,0,0,0,0,0,0,0,0,0,AUS
+Algeria,0,0,0,0,0,0,0,0,0,0,DZA
+El Salvador,0,0,0,0,0,0,0,0,0,0,SLV
+Tuvalu,0,0,0,0,0,0,0,0,0,0,TUV
+Czechia,,,,,,0,0,0,0,0,Czechia
+Solomon Islands,0,0,0,0,0,0,0,0,0,0,SLB
+Marshall Islands,0,0,0,0,0,0,0,0,0,0,MHL
+Chile,0,0,0,0,0,0,0,0,0,0,CHL
+Puerto Rico,0,0,0,0,0,0,0,0,0,0,PRI
+Belgium,0,0,0,0,0,0,0,0,0,0,BEL
+Kiribati,0,0,0,0,0,0,0,0,0,0,KIR
+Haiti,0,0,0,0,0,0,0,0,0,0,HTI
+Belize,0,0,0,0,0,0,0,0,0,0,BLZ
+Sierra Leone,0,0,0,0,0,0,0,0,0,0,SLE
+Georgia,,,,,3.15,3.15,3.15,3.15,3.15,3.15,GEO
+Lao People's Democratic Republic,0,0,0,0,0,0,0,0,0,0,LAO
+Gambia,0,0,0,0,0,0,0,0,0,0,GMB
+Philippines,0,0,0,0,0,0,0,0,0,0,PHL
+Morocco,0,0,0,0,0,0,0,0,0,0,MAR
+Croatia,,,,,0,0,0,0,0,0,HRV
+Guinea-Bissau,0,0,0,0,0,0,0,0,0,0,GNB
+Thailand,0,0,0,0,0,0,0,0,0,0,THA
+Switzerland,0,0,0,0,0,0,0,0,0,0,CHE
+Grenada,0,0,0,0,0,0,0,0,0,0,GRD
+Venezuela (Bolivarian Republic of),0,0,0,0,0,0,0,0,0,0,VEN
+Iraq,9,9,9,9,9,9,9,9,9,9,IRQ
+Portugal,0,0,0,0,0,0,0,0,0,0,PRT
+Estonia,,,,,0,0,0,0,0,0,EST
+Uruguay,0,0,0,0,0,0,0,0,0,0,URY
+Mexico,1.85,1.85,1.85,1.85,1.85,1.85,1.85,1.85,1.85,1.85,MEX
+Lebanon,0,0,0,0,0,0,0,0,0,0,LBN
+Uzbekistan,,,,,65.65,65.65,65.65,65.65,65.65,65.65,UZB
+Tunisia,0,0,0,0,0,0,0,0,0,0,TUN
+Djibouti,0,0,0,0,0,0,0,0,0,0,DJI
+Antigua and Barbuda,0,0,0,0,0,0,0,0,0,0,ATG
+Spain,0,0,0,0,0,0,0,0,0,0,ESP
+Colombia,0,0,0,0,0,0,0,0,0,0,COL
+Burundi,0,0,0,0,0,0,0,0,0,0,BDI
+Eswatini,0,0,0,0,0,0,0,0,0,0,SWZ
+Fiji,0,0,0,0,0,0,0,0,0,0,FJI
+Barbados,0,0,0,0,0,0,0,0,0,0,BRB
+Madagascar,0,0,0,0,0,0,0,0,0,0,MDG
+Italy,0,0,0,0,0,0,0,0,0,0,ITA
+Bhutan,0,0,0,0,0,0,0,0,0,0,BTN
+Sudan,,,,,,,,,26.5,26.5,SDN
+Nepal,0,0,0,0,0,0,0,0,0,0,NPL
+Malta,0,0,0,0,0,0,0,0,0,0,MLT
+Democratic Republic of the Congo,0,0,0,0,0,0,0,0,0,0,COD
+Netherlands,0,0,0,0,0,0,0,0,0,0,NLD
+Suriname,0,0,0,0,0,0,0,0,0,0,SUR
+Micronesia (Federated States of),0,0,0,0,0,0,0,0,0,0,FSM
+United Kingdom,0,0,0,0,0,0,0,0,0,0,GBR
+Israel,0,0,0,0,0,0,0,0,0,0,ISR
+Iceland,0,0,0,0,0,0,0,0,0,0,ISL
+Zambia,0,0,0,0,0,0,0,0,0,0,ZMB
+Senegal,0,0,0,0,0,0,0,0,0,0,SEN
+Papua New Guinea,0,0,0,0,0,0,0,0,0,0,PNG
+Trinidad and Tobago,0,0,0,0,0,0,0,0,0,0,TTO
+Zimbabwe,0,0,0,0,0,0,0,0,0,0,ZWE
+Germany,0,0,0,0,0,0,0,0,0,0,DEU
+Denmark,0,0,0,0,0,0,0,0,0,0,DNK
+Kazakhstan,,,,,12.03,12.03,12.03,12.03,12.03,12.03,KAZ
+Poland,0,0,0,0,0,0,0,0,0,0,POL
+Eritrea,,,,,,0,0,0,0,0,ERI
+Kyrgyzstan,,,,,0,0,0,0,0,0,KGZ
+Sri Lanka,0,0,0,0,0,0,0,0,0,0,LKA
+Latvia,,,,,0,0,0,0,0,0,LVA
+South Sudan,,,,,,,,,0,0,SSD
+Guyana,0,0,0,0,0,0,0,0,0,0,GUY
+Côte d'Ivoire,0,0,0,0,0,0,0,0,0,0,CIV
+Honduras,0,0,0,0,0,0,0,0,0,0,HND
+Myanmar,0,0,0,0,0,0,0,0,0,0,MMR
+Equatorial Guinea,0,0,0,0,0,0,0,0,0,0,GNQ
+Egypt,55.5,55.5,55.5,55.5,55.5,55.5,55.5,55.5,55.5,55.5,EGY
+Nicaragua,0,0,0,0,0,0,0,0,0,0,NIC
+Singapore,0,0,0,0,0,0,0,0,0,0,SGP
+Democratic People's Republic of Korea,0,0,0,0,0,0,0,0,0,0,PRK
+Botswana,0,0,0,0,0,0,0,0,0,0,BWA
+Timor-Leste,0,0,0,0,0,0,0,0,0,0,TLS
+Congo,0,0,0,0,0,0,0,0,0,0,COG
+Greece,0,0,0,0,0,0,0,0,0,0,GRC
+Paraguay,0,0,0,0,0,0,0,0,0,0,PRY
+Namibia,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05,NAM
+Comoros,0,0,0,0,0,0,0,0,0,0,COM

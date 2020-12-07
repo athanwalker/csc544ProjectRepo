@@ -1,0 +1,180 @@
+country,1970,1975,1980,1985,1990,1995,2000,2005,2010,2015,iso3
+Canada,,,,,79.84,77.97,,80.15,,78.85,CAN
+Sao Tome and Principe,,,,,,,,,,1.467,STP
+Turkmenistan,,,,,,0.5845,1.084,3.002,,,TKM
+United States of America,,,,,54.34,,53.42,54.25,51.15,47.2,USA
+United Republic of Tanzania,,,,,,,0.4823,,,,TZA
+Lithuania,,,,,,95.11,91.87,,,26.91,LTU
+Cambodia,,,,,,,,1.511,,,KHM
+Ethiopia,,,,,,,0.3778,0.65,,,ETH
+Palestine,,,,,,,5.233,6.938,,8.529,PSE
+Argentina,,,,,,8.747,,,10.59,,ARG
+Cameroon,,,,19.19,19,,7.067,,,,CMR
+Burkina Faso,,,,0,0,,2.25,2.653,,,BFA
+Ghana,13,,,,,,9.674,,,,GHA
+Saudi Arabia,,,,,1.134,,,3,4.037,4.283,SAU
+Japan,,,18.71,,17.29,15.7,14.55,15.4,14.25,,JPN
+Slovenia,,,,,,,78.46,81.6,82.33,81.38,SVN
+Guatemala,,,,,,,,18.14,,,GTM
+Kuwait,,,,,,2.416,2.278,,,,KWT
+Russian Federation,,,,,,61.61,59.82,,,43.53,RUS
+Jordan,,5.987,4.673,3.716,3.354,,4.608,5.258,3.887,3.113,JOR
+Dominica,,,,,,,,,0,,DMA
+Liberia,,,,13,,,36.24,,,,LBR
+Maldives,,,,2.941,,,,,5.085,,MDV
+Jamaica,,,,,,7.004,,9.36,,81.24,JAM
+Oman,,,,,1.554,,2.206,1.438,,7.212,OMN
+North Macedonia,,,,,,17.62,22.06,36.16,,20.44,MKD
+Cabo Verde,,,,,,,1.818,,,,CPV
+Seychelles,,,,,9.244,,,27.74,,,SYC
+Gabon,,,,22,,,9.476,10.14,,,GAB
+Monaco,,,,,0,0,0,0,0,,MCO
+New Zealand,,,,10,,,6.369,19.13,22.76,,NZL
+Yemen,,,,,1.057,,2,1.823,,,YEM
+Albania,,,,,8.333,,12.37,17.68,,,ALB
+United Arab Emirates,,,9,,,9.488,3.833,1.726,,,ARE
+India,,4,2.875,2.211,3,,1.638,,2.234,,IND
+Azerbaijan,,,,,26.29,23.21,28.6,25.17,25.97,23.96,AZE
+Lesotho,,,,22,,,45.66,,,,LSO
+Saint Vincent and the Grenadines,,,,,,,,,,0.0235,VCT
+Kenya,,,,,3.904,,,4.31,3.884,7.515,KEN
+Tajikistan,,,,,,4.221,4.682,3.549,,,TJK
+Turkey,,,,,11.08,,3.891,3.401,3.548,4.929,TUR
+Afghanistan,,,,0,,,0.6336,,,,AFG
+Bangladesh,,,,,,,,,2.147,,BGD
+Mauritania,,,3.973,,,,1.58,2.356,,,MRT
+Iran (Islamic Republic of),,,,,,1.205,1.143,1.179,,,IRN
+Viet Nam,,,3.962,6.34,,,,3.747,,,VNM
+Saint Lucia,,,,,,,,0,,,LCA
+Mongolia,,,,,,27.1,,40.37,43.19,35.94,MNG
+France,,,,70.25,72.21,69.55,68.3,69.37,70.46,68.65,FRA
+Syrian Arab Republic,,,,,,2.897,3.478,3.672,,,SYR
+Rwanda,,,,,,,8,,,,RWA
+Slovakia,,,,,,58.09,56.9,44.62,49.42,41.56,SVK
+Somalia,,,,0,,,0,0.0606,,,SOM
+Peru,,,,,,,,,2.116,1.283,PER
+Norway,,,,,,37.56,32.64,40.75,,,NOR
+Malawi,,,,,,3.419,3.011,3.515,,,MWI
+Benin,,,,13.64,,,23.08,,,,BEN
+Cuba,,,,,,14.68,,15.41,,10.63,CUB
+Montenegro,,,,,,,,,39.03,,MNE
+Saint Kitts and Nevis,,,,,,,,,0,,KNA
+Togo,,,,13.19,,,2.367,,,,TGO
+China,,,10.31,7.518,10,17.62,20.72,24.56,23.6,22.32,CHN
+Armenia,,,,,,4.103,4.42,4.374,7.895,4.271,ARM
+Republic of Korea,,,,,9.723,12.89,15.26,,,,KOR
+Dominican Republic,,,,,,,1.336,4.735,8.189,,DOM
+Bolivia (Plurinational State of),,,,5,,,,,1.533,,BOL
+Ukraine,,,,,51.92,,51.89,48.01,47.99,38.97,UKR
+Bahrain,,,,,4.184,,,5.68,,3.246,BHR
+Finland,,,,,81.08,82.13,,,,,FIN
+Libya,,,,,1.471,2.174,3.051,,4.803,,LBY
+Indonesia,,,,,0.5058,,6.53,,,4.104,IDN
+Central African Republic,,,,20.62,,,16.62,16.55,,,CAF
+Mauritius,,6.889,,,,7.642,,0.9524,1.89,1.948,MUS
+Belarus,,,,,,33.33,29.64,28.96,31.49,31.71,BLR
+Mali,,,,1.029,,,,0.0771,,,MLI
+Sweden,72.67,71.58,72.09,,59.97,55.66,56.17,57.91,58.46,56.63,SWE
+Bulgaria,,,,,64.75,,72.48,,66.79,69.66,BGR
+Romania,49.22,46.18,52.18,45.56,44.39,59.63,66.91,54.47,66.89,62.51,ROU
+Angola,,,,10,,,28.81,33.95,,,AGO
+Chad,,,,2.21,,,10.42,11.79,,,TCD
+South Africa,,,,,10.88,8.543,8.225,,,21.16,ZAF
+Cyprus,,0,0,0,2.212,2.37,1.665,3.693,2.346,5.466,CYP
+Qatar,,,,,,2.948,4.729,1.835,,15.75,QAT
+Malaysia,,,,,9.872,29.9,,,,,MYS
+Austria,,,80.61,74.61,79.38,78.4,79.03,,77.18,,AUT
+Mozambique,,,,,1.983,,2.748,,,1.697,MOZ
+Uganda,8,,,,,,14.49,,7.849,,UGA
+Hungary,55.94,58.31,,55,72.92,78.64,73.58,80.34,79.45,74.61,HUN
+Niger,,,,,2,,,3.325,,2.056,NER
+Brazil,,,,,,18.12,,17.46,17,14.48,BRA
+Guinea,,,,2.973,,,9.416,,,,GIN
+Panama,,,,,,,,,0.9643,0.512,PAN
+Republic of Moldova,,,,,46.82,,,82.86,,77.38,MDA
+Costa Rica,,,,,,,,,3.677,7.514,CRI
+Luxembourg,,,,,,25.49,23.47,,8.315,3.509,LUX
+Ireland,,,49.25,,,44.81,,6.986,,,IRL
+Pakistan,,1,,,1.607,,2.01,,0.7629,,PAK
+Nigeria,,,,9.75,,,15.07,16.98,15.76,,NGA
+Ecuador,,,,,,,4.111,5.535,,,ECU
+Australia,,,,,,,10.26,12.43,16.78,16.08,AUS
+Algeria,,,4,,15.11,,8.737,,4.926,1.826,DZA
+El Salvador,,,,,20.16,,17.22,10.06,,,SLV
+Czechia,,,,,,60.73,,,,59.34,Czechia
+Chile,,,,,10.9,,,13.39,,,CHL
+Puerto Rico,,,,,81.59,,78.36,76.5,75.85,72.21,PRI
+Belgium,,,85.01,,,88.43,88.51,87.66,87.35,80.37,BEL
+Haiti,,,,,0.5511,0.358,,,3.517,,HTI
+Belize,,,,0,,,20.99,,,,BLZ
+Sierra Leone,,,,4.054,,,25.25,26.15,,,SLE
+Georgia,,,,,,,,22.06,,,GEO
+Lao People's Democratic Republic,,,,,,,,4.867,,,LAO
+Gambia,,,2,,,,19.23,,,,GMB
+Philippines,,,,,,,,9.016,10.73,17.09,PHL
+Morocco,,,,,2.917,,5.169,,2.033,,MAR
+Croatia,,,,,,,10.95,,22.07,25.73,HRV
+Guinea-Bissau,,,,,3.614,4.571,4.571,,,,GNB
+Thailand,,,,,,,,4.846,,,THA
+Switzerland,,,,,,,,,32.05,,CHE
+Grenada,,,,,,,,,,0,GRD
+Venezuela (Bolivarian Republic of),11,,,,,,7.536,3.506,,,VEN
+Iraq,,1.109,0.7598,0.4144,5,10.88,14.7,,,5.318,IRQ
+Portugal,,,,,36.05,,13.44,,,,PRT
+Estonia,,,,,85.67,92.93,,,95.95,96.41,EST
+Uruguay,,,,,,,2.186,,,,URY
+Mexico,,,,,,,9.504,9.145,8.948,7.757,MEX
+Lebanon,,3.995,,,,3.867,5.506,11.45,,48.91,LBN
+Uzbekistan,,,,,,1.9,3.879,2.679,,3.616,UZB
+Tunisia,,,,,2.797,3.43,3.86,,4.992,19.79,TUN
+Djibouti,,,,0,,,0,,,,DJI
+Antigua and Barbuda,,,,,20,,,21.43,21.74,,ATG
+Spain,,,,26,17.34,19.31,20.72,18.26,17.94,19.11,ESP
+Colombia,,,,,,,4.635,,19.05,,COL
+Burundi,,,,0,,,5.903,,,,BDI
+Eswatini,,,2.435,,,,1.152,,,,SWZ
+Fiji,,,,20,,,10.77,11.31,,,FJI
+Barbados,,,,,,7.654,,7.654,,,BRB
+Madagascar,,,,0,,,0.9783,1.194,,,MDG
+Italy,21.63,,,,,,35.87,,,22.52,ITA
+Bhutan,,,,,,,,,0.8876,,BTN
+Sudan,,,,,,,,,0.2785,,SDN
+Serbia,,,,,,,,,70.34,75.45,SRB
+Nepal,,,,,,,0.4225,0.3106,,,NPL
+Malta,,,,,,0,0.9294,1.795,2.494,1.567,MLT
+Democratic Republic of the Congo,,,,,,,21.04,21.47,,,COD
+Netherlands,,,,,81.66,76.99,84.79,87.94,88.12,91.67,NLD
+Suriname,,,,4.783,,,2.985,22,,,SUR
+United Kingdom,,,,,,,45.48,14.01,13.66,12,GBR
+Israel,4.795,5.055,5.294,,5.876,,6.663,5.783,6.774,3.125,ISR
+Iceland,,,9.259,8.929,5.988,,8.485,8.485,67.96,76.15,ISL
+Zambia,,,,,6.125,6.917,8.27,,,,ZMB
+Senegal,,,,3.015,,,2.611,,,,SEN
+Papua New Guinea,,,,,,,42.7,42.74,,,PNG
+Trinidad and Tobago,,,,,,31.58,31.53,33.62,33.64,,TTO
+Zimbabwe,,,,6.967,,,7.087,6.022,,2.438,ZWE
+Germany,,,,,,83.63,83.27,,,80.81,DEU
+Denmark,11.11,3.734,3.734,19.35,17.84,,9.268,7.411,19.35,4.439,DNK
+Kazakhstan,,,,,,16.86,21.6,25.46,30,28.56,KAZ
+Poland,,,,,68.56,73.63,,,66.65,69.79,POL
+Eritrea,,,,,,,14.93,0.1718,,,ERI
+Kyrgyzstan,,,,,,2.864,3.075,4.196,,,KGZ
+Sri Lanka,,,,,1.996,,3.948,6.417,,,LKA
+Latvia,,,,,,,,19.52,21.64,13.91,LVA
+South Sudan,,,,,,,,,34.19,,SSD
+Guyana,,,,,0.4795,,0.6098,,1.412,,GUY
+Côte d'Ivoire,,,,11,,21.92,19.13,20.53,,20.83,CIV
+Honduras,,,,,,,,7.094,,,HND
+Myanmar,,,,0.4204,,,1,,,,MMR
+Equatorial Guinea,,,,13,,,14.94,,,,GNQ
+Egypt,,,,,,7.523,5.857,,1.66,6.968,EGY
+Nicaragua,,,,,,,1.945,,4.764,,NIC
+Singapore,,51,,,,,,,,,SGP
+Democratic People's Republic of Korea,,,,,,,,13.22,,,PRK
+Botswana,,,,,20.35,19.18,18.04,,18.68,12.12,BWA
+Timor-Leste,,,,,,,,0.1706,,,TLS
+Congo,,,,27,,,21.74,,,,COG
+Greece,,2.685,,4.367,,2.69,,3.38,1.268,1.853,GRC
+Paraguay,,,,7,,,8.163,,6.382,,PRY
+Namibia,,,,,3.213,3.846,4.861,,,,NAM
+Comoros,,,,,,,5,,,,COM
