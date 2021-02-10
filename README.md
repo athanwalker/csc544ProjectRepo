@@ -3,6 +3,10 @@
 Author: Athan Walker [athanwalker@email.arizona.edu](mailto:athanwalker@email.arizona.edu)  
 Date: 12/7/2020
 
+## About
+Water World is a web-based choropleth that colors roughly 200 countries based on user selected water attributes during a selected year, such as 'water withdrawn per capita' in the year 2015.
+All water data used in this project is taken from AQUASTAT, the United Nations Food and Agriculture Organization's open source database.
+
 ## Notes
 To run:
 * Clone this repo
